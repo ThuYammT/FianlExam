@@ -1,5 +1,6 @@
+"use client";  // Add this line to ensure it's treated as a Client Component
+
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 
 const APIBASE = process.env.NEXT_PUBLIC_API_URL;
 
